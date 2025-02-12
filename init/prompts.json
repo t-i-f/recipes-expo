@@ -1,0 +1,42 @@
+[
+    {
+        "type": "input",
+        "name": "name",
+        "message": "What is your project's name?",
+        "default": "my-app"
+    },
+    {
+        "type": "checkbox",
+        "name": "features",
+        "message": "Choose features",
+        "choices": [
+            {
+                "value": "tailwind",
+                "checked": true
+            },
+            {
+                "value": "zustand",
+                "checked": true
+            },
+            {
+                "value": "onesignal",
+                "checked": true
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "modules",
+        "message": "Choose modules",
+        "choices": [
+            {
+                "value": "auth",
+                "checked": true
+            },
+            {
+                "value": "drawer",
+                "checked": true
+            }
+        ]
+    }
+]
