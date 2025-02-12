@@ -25,7 +25,7 @@
         ]
     },
     {
-        "type": "select",
+        "type": "checkbox",
         "name": "modules",
         "message": "Choose modules",
         "choices": [
