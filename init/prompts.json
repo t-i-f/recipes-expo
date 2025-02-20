@@ -3,18 +3,21 @@
         "type": "input",
         "name": "name",
         "message": "What is your project's name?",
-        "default": "MyApp"
+        "default": "MyApp",
+        "required": true
     },
     {
         "type": "input",
         "name": "slug",
         "message": "What is your project's slug?",
-        "default": "my-app"
+        "default": "my-app",
+        "required": true
     },
     {
         "type": "input",
         "name": "repo",
-        "message": "What is your Github repo? (user/repo)"
+        "message": "What is your Github repo? (user/repo)",
+        "required": true
     },
     {
         "type": "checkbox",
