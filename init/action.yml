@@ -1,4 +1,4 @@
-name: recipe-expo-init
+name: expo-init
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  APP_SLUG: {{configs.app.slug}}
+  APP_SLUG: {{slug}}
 
 jobs:
   create-expo-app:
@@ -46,6 +46,6 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: $\{{ secrets.GITHUB_TOKEN }}
         branch: main
         force: true
