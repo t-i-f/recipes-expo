@@ -6,9 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-env:
-  APP_SLUG: {{slug}}
-
 jobs:
   create-expo-app:
     runs-on: ubuntu-latest
@@ -28,13 +25,13 @@ jobs:
         node-version: '20' # Use the version of Node.js you prefer
 
     - name: Create Expo app
-      run: npx create-expo-app@latest $APP_SLUG
+      run: npx create-expo-app@latest {{slug}}
 
     - name: Move app to root
       run: |
         shopt -s dotglob
-        mv "$APP_SLUG/*" .
-        rmdir $APP_SLUG
+        mv {{slug}}/* .
+        rmdir {{slug}}
 
     - name: Commit changes
       run: |
