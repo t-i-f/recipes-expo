@@ -17,7 +17,7 @@ jobs:
     - name: Cleanup
       run: |
         shopt -s extglob
-        rm -rf !(.github)
+        find . -mindepth 1 ! -name ".github" ! -name "tisf.json" -exec rm -rf {} +
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
