@@ -1,0 +1,7 @@
+{
+    "name": "expo-init",
+    "commands": [
+        "npx @tisf/hb -p https://raw.githubusercontent.com/t-i-f/recipes-expo/main/init/prompts.json https://raw.githubusercontent.com/t-i-f/recipes-expo/main/init/action.yml init.yml -s tisf.json -t root",
+        "npx @tisf/repo refresh {{repo}}"
+    ]
+}
