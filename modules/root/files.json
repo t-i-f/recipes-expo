@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "files": [
+        [
+            "https://raw.githubusercontent.com/t-i-f/screens-expo/main/root/_layout.tsx",
+            "app/root/_layout.tsx"
+        ],
+        [
+            "https://raw.githubusercontent.com/t-i-f/screens-expo/main/root/index.tsx",
+            "app/root/index.tsx"
+        ]
+    ]
+}
