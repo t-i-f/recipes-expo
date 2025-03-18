@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "files": [
+        [
+            "@recipes-expo/modules/onboarding/_layout.tsx",
+            "app/onboarding/_layout.tsx"
+        ],
+        [
+            "@recipes-expo/modules/onboarding/index.tsx",
+            "app/onboarding/index.tsx"
+        ]
+    ]
+}

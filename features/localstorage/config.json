@@ -1,0 +1,16 @@
+{
+    "name": "localstorage",
+    "steps": [
+        "deps",
+        "files"
+    ],
+    "deps": [
+        "npx expo install|@react-native-async-storage/async-storage"
+    ],
+    "files": [
+        [
+            "@recipes-expo/features/localstorage/LocalStorage.ts",
+            "features/AsyncStorage/LocalStorage.ts"
+        ]
+    ]
+}

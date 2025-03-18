@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "files": [
+        [
+            "@recipes-expo/modules/root/_layout.tsx",
+            "app/root/_layout.tsx"
+        ],
+        [
+            "@recipes-expo/modules/root/index.tsx",
+            "app/root/index.tsx"
+        ]
+    ]
+}

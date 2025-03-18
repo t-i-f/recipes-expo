@@ -1,0 +1,10 @@
+{
+    "name": "root",
+    "commands": [
+        "npx expo install expo-image",
+        "npx gluestack-ui add button",
+        "npx gluestack-ui add text",
+        "npx @tisf/hb -l tisf.json '@recipes-expo/modules/root/files.json' -t modules -n root",
+        "npx @tisf/regex '@recipes-expo/modules/root/_layout.yml'"
+    ]
+}

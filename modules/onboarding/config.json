@@ -1,0 +1,8 @@
+{
+    "name": "onboarding",
+    "commands": [
+        "npm i react-native-onboarding-swiper",
+        "npx @tisf/hb -l tisf.json '@recipes-expo/modules/onboarding/files.json' -t modules -n onboarding",
+        "npx @tisf/regex '@recipes-expo/modules/onboarding/_layout.yml'"
+    ]
+}
